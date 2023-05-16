@@ -127,7 +127,13 @@ header{
     color: red;
     background-color: greenyellow;
 }
-
+#copyrights a{
+    text-decoration: none;
+    list-style: none;
+}
+#copyrights a:hover{
+    color: aqua;
+}
 
 @media (max-width:670px) {
     #locations{
